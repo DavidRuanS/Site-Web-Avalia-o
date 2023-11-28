@@ -1,0 +1,48 @@
+body {
+    background-image: url('../images/home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+
+h1 {
+    text-align: center;
+    /* Centraliza o texto*/
+    color: var(--cor-02);
+    /* Aplica cor no texto*/
+    font-weight: 800;
+    /* Peso da Fonte ( grossura )*/
+    margin: 30px;
+    /* Margem */
+    font-family: 'Playfair Display', serif;
+}
+
+#box_texto {
+    color: var(--cor-04);
+    text-shadow: 0.1em 0.1em var(--cor-02);
+    margin-top: 80px;
+}
+
+#box_historia {
+    text-align: center;
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 300px;
+    background-color: rgba(0, 0, 0, 0.548);
+    padding: 30px;
+    border-radius: 20px;
+    border-style: ridge;
+    font-size: 20px;
+    color: var(--cor-04);
+    box-shadow: 5px 10px 18px var(--cor-06);
+
+}
+
+#fontet1 {
+    margin-left: 900px;
+    color: var(--cor-08);
+}

@@ -1,0 +1,49 @@
+body {
+    background-image: url('../images/Home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+
+h1 {
+    text-align: center;
+    /* Centraliza o texto*/
+    color: var(--cor-02);
+    /* Aplica cor no texto*/
+    font-weight: 800;
+    /* Peso da Fonte ( grossura )*/
+    margin: 30px;
+    /* Margem */
+    font-family: 'Playfair Display', serif;
+}
+
+#box_texto {
+    color: var(--cor-04);
+    text-shadow: 0.1em 0.1em var(--cor-02);
+    margin-top: 80px;
+}
+
+#fotos_galeria {
+    margin-top: 90px;
+}
+
+#fotos .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 180px;
+
+}
+
+#fotos .container img {
+    width: 100%;
+    transition: all 0.2s linear;
+    box-shadow: 2px 2px 18px var(--cor-06);
+}
+
+#fotos .container img:hover {
+    transform: scale(0.9);
+}
